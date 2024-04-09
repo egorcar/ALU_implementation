@@ -23,10 +23,12 @@ The project utilizes the following resources:
 
 ## VHDL Files
 ### `Bitwise_Operations.vhd`
-Contains the VHDL code for the ALU module, defining its inputs, outputs, and behavior based on the operation code.
+Contains the VHDL code for the ALU module, defining its inputs, outputs, and behavior based on the operation code. [View Bitwise_Operations.vhd](./Bitwise_Operations.vhd)
+
 
 ### `constraints.xdc`
-Defines the pin assignments for inputs (A, B, OPCODE) and outputs (C) to the physical pins on the Basys3 board.
+Defines the pin assignments for inputs (A, B, OPCODE) and outputs (C) to the physical pins on the Basys3 board. [View constraints.xdc](./constraints.xdc)
+
 
 ## Synthesis and Testing
 To deploy the ALU module on the Basys3 board, follow these steps using Vivado:
