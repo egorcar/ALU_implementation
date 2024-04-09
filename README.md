@@ -40,8 +40,6 @@ To deploy the ALU module on the Basys3 board, follow these steps using Vivado:
 6. Generate the bitstream file.
 7. Verify the project by loading the bitstream onto the Basys3 development board.
 
-## Conclusion
-In conclusion, this project successfully implements an ALU module capable of performing four logical operations on 8-bit operands. The operation type is selected using the buttons W19 and T17, and the result is displayed using the LEDs on the Basys3 board.
 
 ## References
 1. [VHDL Reference Manual](http://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)
